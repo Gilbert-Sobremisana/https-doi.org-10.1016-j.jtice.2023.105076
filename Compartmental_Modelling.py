@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.metrics import r2_score
 
 # Read the data
-df = pd.read_csv("C:/Users/Gib/Documents/Mapua University/Computing in BIological Engineering (BE283P)/Chrysophanol2.csv")
+df = pd.read_csv("TestModel.csv")
 
 # Search for the best alpha value
 
