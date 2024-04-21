@@ -9,8 +9,8 @@ df = pd.read_csv("TestModel.csv")
 
 # Search for the best alpha value
 
-
 alpha_values = np.arange(0.01, 50, 0.001)
+
 A_0 = 0.02927602 #keep 40.7 constant for denominator if you have no A_0 over Total Compounds at T = 0 Value
 
 ##########################################################################################
