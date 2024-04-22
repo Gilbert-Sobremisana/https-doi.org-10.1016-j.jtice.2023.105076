@@ -29,7 +29,6 @@ def compartmental_equation(alpha, K1, y):
 
 # Search for the best alpha value
 rss_values = []
-alpha_values = np.arange(0.001, 60, 0.001)
 
 for alpha in alpha_values:
     denominator_value = alpha * (1 + A_0) - (A_0 * (alpha ** 2))
